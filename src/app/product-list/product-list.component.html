@@ -1,6 +1,13 @@
 <h2>Products</h2>
 
-
+<ul class="products">
+  <li *ngFor="let product of products">
+    <span class="id">{{ product.id }},&nbsp;</span>
+    <span class="id">{{ product.name }},&nbsp;</span>
+    <span class="id">{{ product.price }},&nbsp;</span>
+    <span class="id">{{ product.description }}</span>
+  </li>
+</ul>
 <!-- 
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
